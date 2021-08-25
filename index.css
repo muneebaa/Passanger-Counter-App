@@ -17,6 +17,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+.entries{
+    /* border: 2px solid blue; */
+    height: 100px;
+}
+
 button {
     border: none;
     padding-top: 10px;
@@ -36,3 +41,7 @@ button {
     background: darkgreen;
 }
 
+#reset-btn {
+    margin-top: 10px;
+    background: rgb(61, 103, 230);
+}
