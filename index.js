@@ -14,10 +14,6 @@ countStr = entriesFromLocalStorage;
 saveEl.innerHTML = entriesFromLocalStorage
 
 
-console.log(countStr)
-console.log(saveEl.innerHTML )
-
-
 incrementBtn.addEventListener("click", function () {
     count = count + 1;
     countEl.innerHTML = count;
@@ -37,47 +33,6 @@ saveBtn.addEventListener("click", function () {
 
 resetBtn.addEventListener("click", function () {
     saveEl.innerHTML = "";
+    countStr=[]
     localStorage.clear()
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function increment(){
-//     count += 1;
-//     countEl.innerHTML = count
-// }
-
-
-// function save(){
-//     countStr = count + " - "
-//     saveEl.textContent += countStr
-//     localStorage.setItem("entries", JSON.stringify(countStr))
-//     countEl.textContent = 0
-//     count = 0
-// }
-
-
-// function reset(){
-//     saveEl.textContent = ""
-//     localStorage.clear()
-// }
-
